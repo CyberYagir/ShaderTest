@@ -1,7 +1,7 @@
 
 
 //Туториал по которому делал https://danielilett.com/2021-08-24-tut5-17-stylised-grass/
-Shader "Yagir/Grass"
+Shader "Yagir/Leaves"
 {
     Properties
     {
@@ -271,9 +271,13 @@ Shader "Yagir/Grass"
 				     float t = i / (float)BLADE_SEGMENTS;
 				     float3 offset = float3(width * (1 - t), pow(t, _BladeBendCurve) * forward, height * t);
 				     float3x3 transformationMatrix = (i == 0) ? baseTransformationMatrix : tipTransformationMatrix;
-
-				     triStream.Append(TransformGeomToClip(pos, float3(offset.x, offset.y, offset.z), transformationMatrix, float2(0, t))); //Ставит 1 вертекс
-					triStream.Append(TransformGeomToClip(pos, float3(-offset.x, offset.y, offset.z), transformationMatrix, float2(1, t))); //Ставит 2 вертекс
+					 if (i == 0){
+				     	triStream.Append(TransformGeomToClip(pos, float3(offset.x  - (offset.x/2), offset.y, offset.z), transformationMatrix, float2(0, t))); //Ставит 1 вертекс
+					 	triStream.Append(TransformGeomToClip(pos, float3(-offset.x + (offset.x/2), offset.y, offset.z), transformationMatrix, float2(1, t))); //Ставит 2 вертекс
+					 }else{
+				     	triStream.Append(TransformGeomToClip(pos, float3(offset.x  - ((offset.x/2) * i * i) , offset.y, offset.z), transformationMatrix, float2(0, t))); //Ставит 1 вертекс
+					 	triStream.Append(TransformGeomToClip(pos, float3(-offset.x + ((offset.x/2) * i * i) , offset.y, offset.z), transformationMatrix, float2(1, t))); //Ставит 2 вертекс
+					 }
 				}
 
 				// Add the final vertex at the tip of the grass blade.
