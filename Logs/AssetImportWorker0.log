@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ru' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editors\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/ShaderTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57614
+Successfully changed project path to: D:/Unity/Projects/ShaderTest
+D:/Unity/Projects/ShaderTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path D:/Unity/Editors/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/ShaderTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   
+    VRAM:     3991 MB
+    Driver:   30.0.15.1277
+Initialize mono
+Mono path[0] = 'D:/Unity/Editors/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editors/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Editors/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editors/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editors/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000950 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 40.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (423ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (332ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\ShaderTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (783ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3252.
+Total: 2.763100 ms (FindLiveObjects: 0.206200 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.413400 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TerrainHeights
+  artifactKey: Guid(06a7ccd33a2d3094da935f978bd9f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights using Guid(06a7ccd33a2d3094da935f978bd9f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1f2846d8dbc116b61c8951d794efbf') in 0.004689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.847706 seconds.
+  path: Assets/TerrainHeights/Scene
+  artifactKey: Guid(374913c86e61b7e449a241fc46813115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Scene using Guid(374913c86e61b7e449a241fc46813115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bb34fc82574e6ebd616f48bc534beb') in 0.003095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.417790 seconds.
+  path: Assets/TerrainHeights/Scene/TerrainColors.unity
+  artifactKey: Guid(b468f5638ba87ea4fac2ff498e9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Scene/TerrainColors.unity using Guid(b468f5638ba87ea4fac2ff498e9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ae20b1bd099020755c0b492917882a') in 0.001058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.834036 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(311dc64548d70fe41b389c1c68ae55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(311dc64548d70fe41b389c1c68ae55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec53c35fcc2d7da40d76cd80fe52797') in 0.029916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.893923 seconds.
+  path: Assets/TerrainHeights/Shader
+  artifactKey: Guid(ae258df81a1f7d447aa702dc9a02598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Shader using Guid(ae258df81a1f7d447aa702dc9a02598d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b14fadb5972fd3b7baff7f74825981') in 0.001102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.854734 seconds.
+  path: Assets/TerrainHeights/Shader/TerrainHeights.shadergraph
+  artifactKey: Guid(dc6a3aa64b750d54fab9fdd5b5655c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Shader/TerrainHeights.shadergraph using Guid(dc6a3aa64b750d54fab9fdd5b5655c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff9a9efc0f912bdafd5ef76bf396973') in 0.003308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.693529 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3078eeefce5171a1ef6e4199a6858649') in 0.154122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 692.580891 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50ef1f0dcf5d95b9b12292b7687e0e3') in 0.012589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.996681 seconds.
+  path: Assets/GrassShader/Grass.mat
+  artifactKey: Guid(f8fb0044725754544b8cae9ff3ddb48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassShader/Grass.mat using Guid(f8fb0044725754544b8cae9ff3ddb48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a88b538b27c00fd55c61a23104b5f1') in 0.021422 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001904 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Projects\ShaderTest\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2710 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3341.
+Total: 2.989000 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.648400 ms  DeleteObjects: 0.028800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.557000 seconds.
+  path: Assets/TerrainHeights/Scene/New Terrain.asset
+  artifactKey: Guid(311dc64548d70fe41b389c1c68ae55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Scene/New Terrain.asset using Guid(311dc64548d70fe41b389c1c68ae55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d005eae31158a0cfc5f53635bdffd78') in 0.021486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.925769 seconds.
+  path: Assets/TerrainHeights/Scene/TerrainColors.unity
+  artifactKey: Guid(b468f5638ba87ea4fac2ff498e9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Scene/TerrainColors.unity using Guid(b468f5638ba87ea4fac2ff498e9db87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53afd7539e72e9d1a6e41afea24f9208') in 0.001179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.407328 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24be73e795ef5ae5ec8d665de94754') in 0.108419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 155.159946 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc5b04e1f7a68d562b387df58b546aa') in 0.006773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.321860 seconds.
+  path: Assets/TerrainHeights/Shader/TerrainHeights.shadergraph
+  artifactKey: Guid(dc6a3aa64b750d54fab9fdd5b5655c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Shader/TerrainHeights.shadergraph using Guid(dc6a3aa64b750d54fab9fdd5b5655c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cdb352321532f0abf2a410b77b6d37') in 0.001765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.384186 seconds.
+  path: Assets/TerrainHeights/Shader/TerrainShader.shadergraph
+  artifactKey: Guid(b3a00227e50d9284b811d26f2fb77485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Shader/TerrainShader.shadergraph using Guid(b3a00227e50d9284b811d26f2fb77485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f056cf3f954e7b45291d021591f0c8') in 0.002258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.814468 seconds.
+  path: Assets/TerrainHeights/Textures/Grass.jpg
+  artifactKey: Guid(a85a95e196293ea4fabc2cd8ee8ac574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Textures/Grass.jpg using Guid(a85a95e196293ea4fabc2cd8ee8ac574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaf46c8e650a466c2bf957fcd48840e') in 0.021416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/LeavesShader/Textures/GrassTexture.png
+  artifactKey: Guid(7579e30dcf7c23448b451e4a48df12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeavesShader/Textures/GrassTexture.png using Guid(7579e30dcf7c23448b451e4a48df12af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a8fd7d30dbc5c69d88285050f34bf3') in 0.013852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/LeavesShader/Textures/Wind.jpg
+  artifactKey: Guid(1528b1570f6c5e64b94bf690209322a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LeavesShader/Textures/Wind.jpg using Guid(1528b1570f6c5e64b94bf690209322a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea173869df1266cb7fe385cebe500ed6') in 0.005766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.863518 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(8e2ab52bf7b4c134ebc5d3552d3f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(8e2ab52bf7b4c134ebc5d3552d3f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdd3ef19e177367cc37d6a295fc6d7a') in 0.001789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.339237 seconds.
+  path: Assets/TerrainHeights/Shader/TerrainShader.shadergraph
+  artifactKey: Guid(b3a00227e50d9284b811d26f2fb77485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Shader/TerrainShader.shadergraph using Guid(b3a00227e50d9284b811d26f2fb77485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f557566be1af1f6f3e671bb4e5c8a842') in 0.002576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.679130 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002d4d68372a096b34c422762c36c1fe') in 0.019659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.565432 seconds.
+  path: Assets/TerrainHeights/Terrain.mat
+  artifactKey: Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Terrain.mat using Guid(222f0dd9216672c41afdc43497576e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8434c35b2b293b223272c2530b79a9d5') in 0.017381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/TerrainHeights/Water.mat
+  artifactKey: Guid(f8eba662170153a4fa3cc201a2c8be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Water.mat using Guid(f8eba662170153a4fa3cc201a2c8be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910c4b3f77be9f909cb8c71e391f8ffd') in 0.007220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.715509 seconds.
+  path: Assets/TerrainHeights/Water.mat
+  artifactKey: Guid(f8eba662170153a4fa3cc201a2c8be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainHeights/Water.mat using Guid(f8eba662170153a4fa3cc201a2c8be27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e034664e69f1f2c013b219d6e4a45786') in 0.007822 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
